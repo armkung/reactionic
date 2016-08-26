@@ -1,0 +1,46 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _classnames = require('classnames');
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var IonSubHeaderBar = _react2.default.createClass({
+  displayName: 'IonSubHeaderBar',
+
+  propTypes: {
+    customClasses: _react2.default.PropTypes.string
+  },
+  getDefaultProps: function getDefaultProps() {
+    return {
+      customClasses: ''
+    };
+  },
+  contextTypes: {
+    ionUpdateHasX: _react2.default.PropTypes.func,
+    ionHasTabsTop: _react2.default.PropTypes.bool
+  },
+  componentWillMount: function componentWillMount() {
+    this.context.ionUpdateHasX('ionHasSubheader', true);
+  },
+  render: function render() {
+    var classes = (0, _classnames2.default)({ 'bar': true, 'bar-subheader': true }, this.props.customClasses || 'bar-stable', // default class
+    { 'has-tabs-top': this.context.ionHasTabsTop });
+    return _react2.default.createElement(
+      'div',
+      { className: classes },
+      this.props.children
+    );
+  }
+});
+
+exports.default = IonSubHeaderBar;

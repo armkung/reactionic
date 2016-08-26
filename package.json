@@ -8,8 +8,7 @@
     "prebuild": "rm -rf dist && mkdir dist && mkdir dist/scss",
     "build:babel": "babel src --out-dir dist",
     "build:assets": "cp -a src/ionic-scss src/styles src/fonts dist/scss/.",
-    "build": "npm run build:assets && npm run build:babel",
-    "postinstall": "npm run prebuild && npm run build"
+    "build": "npm run build:assets && npm run build:babel"
   },
   "repository": {
     "type": "git",
