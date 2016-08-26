@@ -20,9 +20,9 @@ var _ionContent = require('./components/ionContent');
 
 var _ionContent2 = _interopRequireDefault(_ionContent);
 
-var _IonCheckBox = require('./components/IonCheckBox');
+var _ionCheckBox = require('./components/ionCheckBox');
 
-var _IonCheckBox2 = _interopRequireDefault(_IonCheckBox);
+var _ionCheckBox2 = _interopRequireDefault(_ionCheckBox);
 
 var _ionFooterBar = require('./components/ionFooterBar');
 
@@ -160,7 +160,7 @@ module.exports = {
   IonButton: _ionButton2.default,
   IonCard: _ionCard2.default,
   IonContent: _ionContent2.default,
-  IonCheckBox: _IonCheckBox2.default,
+  IonCheckBox: _ionCheckBox2.default,
   IonFooterBar: _ionFooterBar2.default,
   IonHeaderBar: _ionHeaderBar2.default,
   IonIcon: _ionIcon2.default,
