@@ -3,7 +3,7 @@ import IonBody from './components/ionBody';
 import IonButton from './components/ionButton';
 import IonCard from './components/ionCard';
 import IonContent from './components/ionContent';
-import IonCheckbox from './components/ionCheckbox';
+import IonCheckBox from './components/IonCheckBox';
 import IonFooterBar from './components/ionFooterBar';
 import IonHeaderBar from './components/ionHeaderBar';
 import IonIcon from './components/ionIcon';
