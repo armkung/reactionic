@@ -44,7 +44,7 @@ module.exports = {
   IonButton: IonButton,
   IonCard: IonCard,
   IonContent: IonContent,
-  IonCheckbox: IonCheckbox,
+  IonCheckBox: IonCheckBox,
   IonFooterBar: IonFooterBar,
   IonHeaderBar: IonHeaderBar,
   IonIcon: IonIcon,

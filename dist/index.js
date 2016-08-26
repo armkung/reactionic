@@ -160,7 +160,7 @@ module.exports = {
   IonButton: _ionButton2.default,
   IonCard: _ionCard2.default,
   IonContent: _ionContent2.default,
-  IonCheckbox: IonCheckbox,
+  IonCheckBox: _IonCheckBox2.default,
   IonFooterBar: _ionFooterBar2.default,
   IonHeaderBar: _ionHeaderBar2.default,
   IonIcon: _ionIcon2.default,
